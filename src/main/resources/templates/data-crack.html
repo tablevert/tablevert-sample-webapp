@@ -1,0 +1,34 @@
+<!--
+  ~ Copyright 2019 conis Informationssysteme GmbH
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" sizes="16x16" th:href="@{/img/Tablevert-Logo.png}">
+    <title>Tablevert sample page</title>
+</head>
+<body>
+<header><h1>Welcome to the Tablevert sample page!</h1></header>
+<main>
+    <h2>Define your request here</h2>
+    <form method="post" action="/tablevert" target="_blank">
+        <table>
+            <tr>
+                <td>Type</td>
+                <td><input type="radio" name="type" value="XLSX" id="type_xlsx" checked="checked"
+                           disabled="disabled"><label
+                        for="type_xlsx">XLSX</label></td>
+            </tr>
+            <tr>
+                <td>Query</td>
+                <td><input type="text" name="query"></td>
+            </tr>
+        </table>
+    </form>
+</main>
+<footer></footer>
+</body>
+</html>
