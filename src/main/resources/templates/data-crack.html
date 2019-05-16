@@ -8,6 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" sizes="16x16" th:href="@{/img/Tablevert-Logo.png}">
+    <script type="module" th:src="@{/scripts/tablevert-web-component/tablevert-custom-element.js}"></script>
     <title>Tablevert sample page</title>
 </head>
 <body>
@@ -28,6 +29,7 @@
             </tr>
         </table>
     </form>
+    <tablevert-table-element id="first-table" data-tv-query="TestQuery"></tablevert-table-element>
 </main>
 <footer></footer>
 </body>
