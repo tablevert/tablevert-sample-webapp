@@ -4,4 +4,4 @@
  */
 
 import { TablevertTableElement } from './tablevert-table-element.js';
-customElements.define('tablevert-table-element', TablevertTableElement);
+customElements.define('tablevert-table', TablevertTableElement);

@@ -14,22 +14,23 @@
 <body>
 <header><h1>Welcome to the Tablevert sample page!</h1></header>
 <main>
-    <h2>Define your request here</h2>
-    <form method="post" action="/tablevert" target="_blank">
-        <table>
-            <tr>
-                <td>Type</td>
-                <td><input type="radio" name="type" value="XLSX" id="type_xlsx" checked="checked"
-                           disabled="disabled"><label
-                        for="type_xlsx">XLSX</label></td>
-            </tr>
-            <tr>
-                <td><label for="query">Query</label></td>
-                <td><input type="text" name="query" id="query"></td>
-            </tr>
-        </table>
-    </form>
-    <tablevert-table-element id="first-table" data-tv-query="TestQuery"></tablevert-table-element>
+<!--    <h2>Define your request here</h2>-->
+<!--    <form method="post" action="/tablevert" target="_blank">-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <td>Type</td>-->
+<!--                <td><input type="radio" name="type" value="XLSX" id="type_xlsx" checked="checked"-->
+<!--                           disabled="disabled"><label-->
+<!--                        for="type_xlsx">XLSX</label></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td><label for="query">Query</label></td>-->
+<!--                <td><input type="text" name="query" id="query"></td>-->
+<!--            </tr>-->
+<!--        </table>-->
+<!--    </form>-->
+    <h2>A sample HTML table automatically loaded:</h2>
+    <tablevert-table id="first-table" data-tv-query="TestQuery"></tablevert-table>
 </main>
 <footer></footer>
 </body>

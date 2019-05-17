@@ -1,2 +1,13 @@
 server:
   port: 8081
+
+tablevert:
+  protocol: http
+  host: localhost
+  port: 8080
+  endpoints:
+    base: /
+    tvrequest: tvrequest
+  user:
+    name: testUser
+    secret: test
